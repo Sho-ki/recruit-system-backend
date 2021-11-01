@@ -13,44 +13,66 @@ https://recruit-system-frontend.vercel.app/admin/home
 ## 🧐A Part of API References
 
 #### Create a user
-```http
+```
   POST /signIn
 ```
 
 #### Login
-```http
+```
   POST /login
 ```
 
 #### Create a quiz
-```http
+```
   POST /quiz-api
 ```
 #### Get a quiz
 
-```http
+```
   GET /quiz-api/:quiz-id
 ```
 
-
-
 #### Update a quiz
-```http
+```
   POST /quiz-api/:quiz-id
 ```
 
 #### Delete a quiz
-```http
+```
   POST /quiz-api/:quiz-id
 ```
 
-
 #### Get all quizes
-
-```http
+```
   GET /quiz-api
 ```
 
+#### Get active quizes
+```
+  GET /active-quiz-api
+```
 
+#### Create a candidate
+```
+  POST /candidate-api
+```
 
+#### Create a candidate answer
+```
+  POST /candidate-answer-api
+```
 
+#### Get a candidates and answer
+```
+  GET /candidate-api/:candidate-id
+```
+
+#### Delete a candidates and answer
+```
+  Delete /candidate-api/:candidate-id
+```
+
+#### Get all candidates
+```
+  GET /candidate-api
+```
