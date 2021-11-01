@@ -3,6 +3,7 @@
 
 Combined with [Recruit-Test System Frontend](https://github.com/Sho-ki/recruit-system-frontend).
 
+## 📝Description
 This application is a system for testing candidates for corporate employment.
 You can create questions in text and they will be displayed on the test screen.
 
@@ -10,7 +11,27 @@ You can create questions in text and they will be displayed on the test screen.
 https://recruit-system-frontend.vercel.app/admin/home
 
 
-## 🧐A Part of API References
+## 🤖Tech Stack
+
+**Client:** React, Next.js
+
+**Server:** Node, Express
+
+**Databse:** PostgreSQL
+
+## Installation
+```
+git clone https://github.com/Sho-ki/recruit-system-backend.git
+cd recruit-system-backend
+npm i
+```
+## Getting Started 
+```
+npm run dev
+```
+
+
+## 🧐API References
 
 #### Create a user
 ```
