@@ -356,7 +356,7 @@ const Quiz = {
 
 module.exports = Quiz;
 
-// When using mysql
+// ______________Using mysql________________
 // const util = require("util");
 // const bcrypt = require("bcrypt");
 // const connection = require("../DB/db");
